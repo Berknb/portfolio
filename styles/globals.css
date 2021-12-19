@@ -1,16 +1,52 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+p{
+  letter-spacing: 0.5px;
+}
+h2{
+  font-family: 'Bebas Neue';
+  font-weight: 100;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: whitesmoke;
+  height: 25.7rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  height: 100%; 
+}
+.main h2{
+  border-bottom: solid black 1.4px;
+  margin-bottom: 0.5rem;
+}
+.card{
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }

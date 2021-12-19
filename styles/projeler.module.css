@@ -1,0 +1,25 @@
+.a{
+    color: blue;
+}
+.projeAciklama{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 5%;
+    margin-bottom: 2rem;
+}
+.projeAciklama img{
+    border-radius: 8%;
+}
+.projeAciklama p{
+    display: flex;
+    align-items: center;
+    background-color: #EFEFF5;
+    height: 7rem;
+    width: 100%;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+.border{
+    border-bottom: transparent 8px #222;
+}
