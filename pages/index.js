@@ -11,9 +11,9 @@ export default function index() {
         <div className='main'>
             <h2>HAKKIMDA</h2>
             <p>
-                &nbsp;&nbsp;&nbsp; 12 Mayıs 1998&apos;de İstanbul Çatalcada doğdum. 
-                İlkokul ve lise hayatımı burada tamamladıktan sonra ilgi alanlarımı veyeteneklerimi 
-                düşünerek bilgisayar mühendisi olmaya karar verdim ve 
+                &nbsp;&nbsp;&nbsp; 12 Mayıs 1998&apos;de İstanbul Çatalca&apos;da doğdum. 
+                İlkokul ve lise hayatımı burada tamamladıktan sonra ilgi alanlarımı ve yeteneklerimi 
+                düşünerek bilgisayar mühendisliği bölümünü tercih etmeye karar verdim ve 
                 Trakya Üniversitesi bilgisayar mühendisliği bölümünü kazanarak Edirne&apos;ye yerleştim.<br/><br/>
                 &nbsp;&nbsp;&nbsp;Üniversite hayatım boyunca geliştirdiğim çeşitli projeler ve takip ettiğim,yürüttüğüm tüm çalışmaların ardından front-end alanında çalışmanın benim için daha keyifli daha verimli ve bu alanda daha yaratıcı olduğumu farkettim ve kendimi bu alanda günden güne geliştirmeye devam ediyorum.<br/>
                 &nbsp;&nbsp;&nbsp;Güncel olarak <strong>React.js,Next.js,React native</strong> ile projeler geliştiriyorum ve seviyemi en üst seviyeye çekmeyi hedefliyorum. Kendimi büyük bir takımla ve büyük projelerle geliştirmek istiyorum iş arayışım da bu yöndedir.
