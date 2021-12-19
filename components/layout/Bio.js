@@ -1,5 +1,5 @@
 import React from 'react';
-import Classes from '../../styles/home.module.css';
+import Classes from '../../styles/bio.module.css';
 import Image from 'next/image';
 import headerImage from  '../../images/headerImage.jpg';
 import { FaGithub } from "react-icons/fa";
