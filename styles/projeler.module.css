@@ -20,6 +20,14 @@
     margin-left: 3rem;
     padding: 1rem;
 }
-.border{
-    border-bottom: transparent 8px #222;
+@media  screen and (max-width:700px) {
+    .projeAciklama{
+        height: 100%;
+        padding-left: 5%;
+    }
+    .projeAciklama p{
+        height: 100%;
+        margin-left: 1rem;
+        padding: 1rem;
+    }
 }
