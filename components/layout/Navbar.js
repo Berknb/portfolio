@@ -15,7 +15,7 @@ export default function Navbar() {
         return (
             <ul className={Classes.navbar}>
                 <li><Link href="/">ABOUT ME</Link></li>
-                <li><Link href="/projeler">PROJECTS</Link></li>
+                <li><Link href="/Projeler">PROJECTS</Link></li>
             </ul>
         )
     }
