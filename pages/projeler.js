@@ -6,7 +6,7 @@ import crf from '../images/crf.png'
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
 
-export default function projeler() {
+export default function Projeler() {
     const lang = useContext(LanguageContext)
     if(lang === "tr"){
         return (
