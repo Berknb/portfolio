@@ -1,4 +1,3 @@
-import React from 'react';
 import Classes from '../../styles/bio.module.css';
 import Image from 'next/image';
 import headerImage from  '../../images/headerImage.jpg';
@@ -8,6 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 export default function index() {
+   
     return (
         <>
         <div className={Classes.homeContainer}>
@@ -17,7 +17,7 @@ export default function index() {
                   <a href='https://www.linkedin.com/in/berkd%C3%BCndar/' target="_blank" rel='noreferrer'><FaLinkedin/></a>
                   </div>
           <div className={Classes.second}>
-              <Image src={headerImage} alt='headerImage' width="350%" height="400%"/>
+              <Image src={headerImage} alt='headerImage' width="335%"/>
               <header>
                   <h1>Berk DÜNDAR</h1>
                   <h3>Junior front-end developer</h3>
