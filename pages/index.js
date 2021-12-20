@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
 
-export default function index() {
+export default function Index() {
     const lang = useContext(LanguageContext)
 
     if(lang === "tr"){
