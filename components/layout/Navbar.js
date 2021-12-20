@@ -8,7 +8,7 @@ export default function Navbar() {
         return (
             <ul className={Classes.navbar}>
                 <li><Link href="/">Hakkımda</Link></li>
-                <li><Link href="/projeler">Projeler</Link></li>
+                <li><Link href="/Projeler">Projeler</Link></li>
             </ul>
         )
     }else{
