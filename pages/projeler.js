@@ -1,8 +1,9 @@
 import Classes from '../styles/projeler.module.css';
 import Image from 'next/image';
 import tenislobisilogo from '../images/tenislobisi.png';
-import sportlobitvlogo from '../images/sporttvlogo.png'
-import crf from '../images/crf.png'
+import sportlobitvlogo from '../images/sporttvlogo.png';
+import searchEngineLogo from '../images/customsearchengine.png'
+import crf from '../images/crf.png';
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
 
@@ -14,8 +15,19 @@ export default function Projeler() {
    <h2>PROJELER</h2>
    <div className='card'>
    <p>
+  İş mailleşmeleri için <strong>react</strong> ile hazırlanmış özel arama motoru. Çalışmanın güncel haline <a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   Json formatında hazırlanan isim, soyisim, ülke, şehir, şirket adı ve mail adresin verileri üzerinde kişi ismi, soyisim, ve yıl bilgisiyle arama yapmayı sağlayan, isme göre veya yıla göre artan azalan filtreleme ile kolaylık sağlayan özel bir arama motoru.
+   </p>
+   </div>
+   </div>
+   <div className='card'>
+   <p>
    Hobilerim arasında ilk sırada spor olduğundan dolayı amatör ve profesyonel sporcuların kullanabileceği uygulama fikirleri her zaman aklımda vardı.<br/>
-   React.js öğrenmeye başladığım süreçte aynı zamanda bu fikirlerden biri olan <strong>Tenislobisi</strong> üzerinde çalışmaya başladım.<br/>
+   <strong>Reactjs</strong> öğrenmeye başladığım süreçte aynı zamanda bu fikirlerden biri olan <strong>Tenislobisi</strong> üzerinde çalışmaya başladım.<br/>
    Çalışmanın güncel haline <a className={Classes.a} href='https://tenislobisi.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz</a>
    </p>
    <div className={Classes.projeAciklama}>
@@ -30,7 +42,7 @@ export default function Projeler() {
    </div>
    
    <div className='card'>
-   <p><strong>SportLobi.TV</strong> fikri next.js ile çalışırken tenislobisine ek ve kendi başına da tüm spor severlerin kullanabileceği bir watchlist uygulaması olarak düşünülmüştür.<a className={Classes.a} href='https://sportlobi-tv.vercel.app/' target="_blank" rel='noreferrer'>SportLobi.TV</a></p>
+   <p><strong>SportLobi.TV</strong> fikri <strong>Next.js</strong> ile çalışırken tenislobisine ek ve kendi başına da tüm spor severlerin kullanabileceği bir watchlist uygulaması olarak düşünülmüştür.<a className={Classes.a} href='https://sportlobi-tv.vercel.app/' target="_blank" rel='noreferrer'>SportLobi.TV</a></p>
    <div className={Classes.projeAciklama}>
    <Image src={sportlobitvlogo} alt='tenislobisilogo' objectFit="contain"/>
    <p>
@@ -60,7 +72,18 @@ export default function Projeler() {
    <h2>PROJECTS</h2>
    <div className='card'>
    <p>
-   Sport is on the first place of my hobbies so I&apos;ve always have ideas about sports. When I begin to learn <strong>reactjs</strong> also give a started to make this project. You can reach the current status of project<a className={Classes.a} href='https://tenislobisi.vercel.app/' target="_blank" rel='noreferrer'> from this link</a>
+   A custom search engine with React.js for business mailings. You can reach the current status of project<a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'> from this link</a>
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   This project allows searching on the data of name, surname, country, city, company name and e-mail address prepared in Json format. Also it provides convenience with increasing and decreasing filtering by name or year.
+   </p>
+   </div>
+   </div>
+   <div className='card'>
+   <p>
+   Sport is on the first place of my hobbies so I&apos;ve always have ideas about sports. When I begin to learn <strong>reactjs</strong> also give a start to make this project. You can reach the current status of project<a className={Classes.a} href='https://tenislobisi.vercel.app/' target="_blank" rel='noreferrer'> from this link</a>
    </p>
    <div className={Classes.projeAciklama}>
    <Image src={tenislobisilogo} alt='tenislobisilogo' objectFit="contain"/>
