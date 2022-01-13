@@ -2,7 +2,8 @@ import Classes from '../styles/projeler.module.css';
 import Image from 'next/image';
 import tenislobisilogo from '../images/tenislobisi.png';
 import sportlobitvlogo from '../images/sporttvlogo.png';
-import searchEngineLogo from '../images/customsearchengine.png'
+import searchEngineLogo from '../images/customsearchengine.png';
+import solieLogo from '../images/solieProject.png';
 import crf from '../images/crf.png';
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
@@ -13,6 +14,17 @@ export default function Projeler() {
         return (
             <div className='main'>
    <h2>PROJELER</h2>
+   <div className='card'>
+   <p>
+   <strong>nextjs</strong> ve <strong>firebase</strong> ile online satış sitesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={solieLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   Firebase veritabanıyla hazırlanan yüzük, kolye gibi takı satan markaya özel bir online satış sayfası tasarımı.
+   </p>
+   </div>
+   </div>
    <div className='card'>
    <p>
   İş mailleşmeleri için <strong>react</strong> ile hazırlanmış özel arama motoru. Çalışmanın güncel haline <a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz</a> 
@@ -70,6 +82,17 @@ export default function Projeler() {
         return (
             <div className='main'>
    <h2>PROJECTS</h2>
+   <div className='card'>
+   <p>
+   eCommerce web site with <strong>nextjs</strong> and <strong>firebase</strong> (Not yet responsive, may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> from this link</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={solieLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   A custom eCommerce page design for the brand that sells jewelry such as rings and necklaces. Powered by Firebase database
+   </p>
+   </div>
+   </div>
    <div className='card'>
    <p>
    A custom search engine with React.js for business mailings. You can reach the current status of project<a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'> from this link</a>
