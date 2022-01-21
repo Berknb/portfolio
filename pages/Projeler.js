@@ -4,7 +4,9 @@ import tenislobisilogo from '../images/tenislobisi.png';
 import sportlobitvlogo from '../images/sporttvlogo.png';
 import searchEngineLogo from '../images/customsearchengine.png';
 import solieLogo from '../images/solieProject.png';
+import learn2flow from '../images/learn2flowImage.png'
 import crf from '../images/crf.png';
+import annoyingGame from '../images/annoyinggameImage.png'
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
 
@@ -25,6 +27,7 @@ export default function Projeler() {
    </p>
    </div>
    </div>
+   
    <div className='card'>
    <p>
   İş mailleşmeleri için <strong>react</strong> ile hazırlanmış özel arama motoru. Çalışmanın güncel haline <a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz</a> 
@@ -33,6 +36,17 @@ export default function Projeler() {
    <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
    <p>
    Json formatında hazırlanan isim, soyisim, ülke, şehir, şirket adı ve mail adresin verileri üzerinde kişi ismi, soyisim, ve yıl bilgisiyle arama yapmayı sağlayan, isme göre veya yıla göre artan azalan filtreleme ile kolaylık sağlayan özel bir arama motoru.
+   </p>
+   </div>
+   </div>
+   <div className='card'>
+   <p>
+   <strong>nextjs</strong> ve <strong>typescript</strong> ile web geliştirme hakkında ücretsiz eğitim kaynaklarını toplayan ve kaynak arayanlara rehber olacak bir web projesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={learn2flow} alt='learn2flow' width={1000} height={500}/>
+   <p>
+   Web geliştirme ve bir sonraki adımda herhangi bir yazılım alanında, türkçe kaynak bulmakta zorlananlar için özellikle kaliteli türkçe kaynakların toplanmaya çalışıldığı yada ingilizce kaynakların türkçe altyazısı anlaşılır olan, temiz anlaşılır basit bir ingilizceyle anlatılan kaynakların toplandığı bir sayfa. Aynı zamanda içerik üreticilerinin motivasyonunu arttırmayı ve bir topluluk oluşturmayı hedefler. 
    </p>
    </div>
    </div>
@@ -65,7 +79,17 @@ export default function Projeler() {
    </p>
    </div>
    </div>
-   
+   <div className='card'>
+   <p>
+   vakit öldüren, oyuncuyu sinir edecek bir html,css ve javascriptle hazırlanan oyun denemesi.  (masaüstünde mouse imleci ile oynayabilirsiniz). Oyuna <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={annoyingGame} alt='annoyingGame' width={300} height={100}/>
+   <p>
+   Mavi kutulara çarparsanız oyun biter. Mor topa temas ettikçe puan kazanırsınız. İyi eğlenceler :&#41;
+   </p>
+   </div>
+   </div>
    <div className='card'>
        <p><strong>Python</strong> ile Türkçe haber metinlerinde kural tabanlı ve makine öğrenmesiyle Türkçe doğal dil işleme. Github üzerinde daha detaylı incelemek için <a className={Classes.a} href='https://github.com/Berknb/turkish-nlp' target="_blank" rel='noreferrer'>repo linki </a></p>
    <div className={Classes.projeAciklama}>
@@ -106,6 +130,17 @@ export default function Projeler() {
    </div>
    <div className='card'>
    <p>
+   A web project that collects free educational resources about web development. Made with <strong>nextjs</strong> and <strong>typescript</strong>(not responsive yet may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> from this link</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={learn2flow} alt='learn2flow' width={1000} height={500}/>
+   <p>
+   For those who have difficulty in finding Turkish resources in the field of web development and any software language in the next step, it is a page where quality Turkish resources are tried to be collected, or resources that are explained in a clean and simple English with Turkish subtitles. It also aims to increase the motivation of content creaters and create a community.  
+   </p>
+   </div>
+   </div>
+   <div className='card'>
+   <p>
    Sport is on the first place of my hobbies so I&apos;ve always have ideas about sports. When I begin to learn <strong>reactjs</strong> also give a start to make this project. You can reach the current status of project<a className={Classes.a} href='https://tenislobisi.vercel.app/' target="_blank" rel='noreferrer'> from this link</a>
    </p>
    <div className={Classes.projeAciklama}>
@@ -130,7 +165,17 @@ informs the user how many minutes are left before the match starts.
    </p>
    </div>
    </div>
-   
+   <div className='card'>
+   <p>
+   a Game made with  html,css and javascript which is trying to be so annoying  (you can play with the mouse cursor on the desktop). You can reach the game <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> from this link</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={annoyingGame} alt='annoyingGame' width={300} height={100}/>
+   <p>
+   If you hit the blue boxes you lose. You get points as you touch the purple ball. Have fun :&#41;
+   </p>
+   </div>
+   </div>
    <div className='card'>
        <p>Rule based named entity recognition on turkish articles with <strong>pyhton</strong> and Natural language processing with machine learning on Turkish news texts. <a className={Classes.a} href='https://github.com/Berknb/turkish-nlp' target="_blank" rel='noreferrer'> here is repo link </a></p>
    <div className={Classes.projeAciklama}>
