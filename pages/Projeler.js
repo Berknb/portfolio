@@ -5,6 +5,7 @@ import sportlobitvlogo from '../images/sporttvlogo.png';
 import searchEngineLogo from '../images/customsearchengine.png';
 import solieLogo from '../images/solieProject.png';
 import learn2flow from '../images/learn2flowImage.png'
+import dukkanimLogo from '../images/dukkanLogo.png'
 import crf from '../images/crf.png';
 import annoyingGame from '../images/annoyinggameImage.png'
 import { useContext } from 'react';
@@ -16,6 +17,17 @@ export default function Projeler() {
         return (
             <div className='main'>
    <h2>PROJELER</h2>
+   <div className='card'>
+   <p>
+   <strong>nextjs</strong> ile online satış sitesi. Çalışmanın güncel haline <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   Nextjs ile hazırlanan temsili bir e ticaret sitesi tasarımı. user/123456 id ve şifresini kullanarak giriş yapabilirsiniz, beyaz eşya sekmesinde ürünler listelenmektedir. Arama çubuğunu kullanarak ürün adı veya marka adı aratabilirsiniz.
+   </p>
+   </div>
+   </div>
    <div className='card'>
    <p>
    <strong>nextjs</strong> ve <strong>firebase</strong> ile online satış sitesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz</a> 
@@ -106,6 +118,17 @@ export default function Projeler() {
         return (
             <div className='main'>
    <h2>PROJECTS</h2>
+   <div className='card'>
+   <p>
+   eCommerce web site with <strong>nextjs</strong> You can reach the current status of project <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> from this link</a> 
+   </p>
+   <div className={Classes.projeAciklama}>
+   <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <p>
+   A representative e-commerce site design prepared with Nextjs. You can log in using the user/123456 id and password, the products are listed in the &quot;beyaz esya&quot; tab. You can search for product name or brand name by using the search bar.
+   </p>
+   </div>
+   </div>
    <div className='card'>
    <p>
    eCommerce web site with <strong>nextjs</strong> and <strong>firebase</strong> (Not yet responsive, may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> from this link</a> 
