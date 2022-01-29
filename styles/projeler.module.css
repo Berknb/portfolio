@@ -21,12 +21,17 @@
 }
 @media  screen and (max-width:1165px) {
     .projeAciklama{
-        height: 100%;
-        padding-left: 5%;
+        margin:0;
+        padding: 0;
+        flex-direction: column;
+        margin-top: 1rem;
+       
+    }
+    .projeAciklama img{
+        border-radius: 8%;
     }
     .projeAciklama p{
-        height: 100%;
-        margin-left: 1rem;
-        padding: 1rem;
+        margin: 0;
+        margin-top: 1rem;
     }
 }
