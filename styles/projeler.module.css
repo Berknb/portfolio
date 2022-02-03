@@ -1,12 +1,45 @@
 .a{
     color: blue;
+    display: flex;
+    align-items: center;
 }
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.card{
+    margin-bottom: 2rem;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+.description{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+.card:hover .description{ 
+    transition: .6s;
+    visibility: visible;
+    opacity: 1;
+    
+}
+
 .projeAciklama{
     display: flex;
     width: 100%;
     margin-top: 2rem;
-    padding-left: 5%;
-    margin-bottom: 2rem;
 }
 .projeAciklama img{
     border-radius: 8%;
@@ -16,16 +49,26 @@
     align-items: center;
     background-color: #EFEFF5;
     width: 100%;
-    margin-left: 3rem;
     padding: 1rem;
 }
 @media  screen and (max-width:1165px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 100%;
+      }
+      .description{
+        padding: 15px;
+        
+    }
     .projeAciklama{
         margin:0;
         padding: 0;
         flex-direction: column;
         margin-top: 1rem;
-       
     }
     .projeAciklama img{
         border-radius: 8%;
