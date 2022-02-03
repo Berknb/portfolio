@@ -1,3 +1,19 @@
+.image{
+  position: relative;
+}
+.icon{
+    position: absolute;
+    right: 5px;
+    color: black;
+    animation: blinker 4s linear infinite;
+    color: red;
+    
+}
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 .a{
     color: blue;
     display: flex;

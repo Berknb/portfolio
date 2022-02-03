@@ -11,17 +11,23 @@ import annoyingGame from '../images/annoyinggameImage.png'
 import { useContext } from 'react';
 import { LanguageContext } from './_app';
 import {BiLinkAlt} from 'react-icons/bi'
+import {MdAdsClick} from 'react-icons/md'
 
 export default function Projeler() {
     const lang = useContext(LanguageContext)
-    if(lang === "tr"){
+    
         return (
-            <div className='main'>
-   <h2>PROJELER</h2>
+            <div>
+                {lang === "tr" ? 
+                <div className='main'>
+                    <h2>PROJELER</h2>
    <section className={Classes.projects}>
    <div className={Classes.card}>
    <span className={Classes.image}>
    <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
    </span>
    <h5>Dükkanım E ticaret sitesi</h5>
    <section className={Classes.description}>
@@ -36,10 +42,13 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={solieLogo} alt='solie' objectFit="contain"/>
-   <h5>Solie E ticaret sitesi</h5>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
    </span>
+   </span>
+   <h5>Solie E ticaret sitesi</h5>
    <section className={Classes.description}>
    <p>
    <strong>nextjs</strong> ve <strong>firebase</strong> ile online satış sitesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a> 
@@ -52,8 +61,11 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
    <h5>Kuruma özel arama motoru</h5>
    </span>
    <section className={Classes.description}>
@@ -68,8 +80,11 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={learn2flow} alt='learn2flow' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
    <h5>Web geliştirme kaynak arama sitesi</h5>
    </span>
    <section className={Classes.description}>
@@ -84,10 +99,13 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={tenislobisilogo} alt='tenislobisilogo' objectFit="contain"/>
-   <h5>Tenis oyuncularını eşleştiren web sitesi</h5>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
    </span>
+   </span>
+   <h5>Tenis oyuncularını eşleştiren web sitesi</h5>
    <section className={Classes.description}>
    <p>
    Hobilerim arasında ilk sırada spor olduğundan dolayı amatör ve profesyonel sporcuların kullanabileceği uygulama fikirleri her zaman aklımda vardı.<br/>
@@ -105,8 +123,11 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={sportlobitvlogo} alt='tenislobisilogo' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
    <h5>İzleme listesi oluşturma sitesi</h5>
    </span>
    <section className={Classes.description}>
@@ -122,8 +143,11 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={annoyingGame} alt='annoyingGame' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
    <h5>html,css ve js ile oyun</h5>
    </span>
    <section className={Classes.description}>
@@ -138,10 +162,13 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-       <span>
+       <span className={Classes.image}>
    <Image src={crf} alt='doğaldilişleme' objectFit="contain"/>
-   <h5>Kural tabanlı doğal dil işleme github reposu</h5>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
    </span>
+   </span>
+   <h5>Kural tabanlı doğal dil işleme github reposu</h5>
    <section className={Classes.description}>
        <p><strong>Python</strong> ile Türkçe haber metinlerinde kural tabanlı ve makine öğrenmesiyle Türkçe doğal dil işleme. Github üzerinde daha detaylı incelemek için <a className={Classes.a} href='https://github.com/Berknb/turkish-nlp' target="_blank" rel='noreferrer'>repo linki <BiLinkAlt size={20}/></a></p>
    <div className={Classes.projeAciklama}>
@@ -153,15 +180,18 @@ export default function Projeler() {
    </section>
    </div>
    </section>
-           </div>
-       )
-    }else{
-        return (
-            <div className='main'>
-   <h2>PROJECTS</h2>
+                </div>
+                :
+                <div className='main'>
+                    <h2>PROJECTS</h2>
    <section className={Classes.projects}>
    <div className={Classes.card}>
-   <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
+    <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+        </span>
    <h5>Dükkanım eCommerce web site</h5>
    <section className={Classes.description}>
    <p>
@@ -175,7 +205,12 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={solieLogo} alt='CustomSearchEngine' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={solieLogo} alt='CustomSearchEngine' objectFit="contain"/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>Solie jewelery eCommerce web site</h5>
    <section className={Classes.description}>
    <p>
@@ -189,7 +224,12 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={searchEngineLogo} alt='CustomSearchEngine' objectFit="contain"/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>Custom search engine</h5>
    <section className={Classes.description}>
    <p>
@@ -203,7 +243,12 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={learn2flow} alt='learn2flow' objectFit='contain'/>
+       <span className={Classes.image}>
+           <Image src={learn2flow} alt='learn2flow' objectFit='contain'/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>Web developer site with the free sources</h5>
    <section className={Classes.description}>
    <p>
@@ -217,7 +262,12 @@ export default function Projeler() {
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={tenislobisilogo} alt='tenislobisilogo' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={tenislobisilogo} alt='tenislobisilogo' objectFit="contain"/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>website for matching tennis players</h5>
    <section className={Classes.description}>
    <p>
@@ -233,7 +283,12 @@ community. They can find tennis courts information after that.
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={sportlobitvlogo} alt='tenislobisilogo' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={sportlobitvlogo} alt='tenislobisilogo' objectFit="contain"/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>Watchlist to add sport events</h5>
    <section className={Classes.description}>
    <p>When I begin to learn <strong>nextjs</strong> and working with it, I created another app for addition to my first tennis app and also can be used by all kind of sports fans. You can reach the current status of project<a className={Classes.a} href='https://sportlobi-tv.vercel.app/' target="_blank" rel='noreferrer'> SportLobi.TV<BiLinkAlt size={20}/></a></p>
@@ -248,7 +303,12 @@ informs the user how many minutes are left before the match starts.
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={annoyingGame} alt='annoyingGame' objectFit='contain'/>
+       <span className={Classes.image}>
+           <Image src={annoyingGame} alt='annoyingGame' objectFit='contain'/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>a Game made with  html,css and javascript</h5>
    <section className={Classes.description}>
    <p>
@@ -262,7 +322,12 @@ informs the user how many minutes are left before the match starts.
    </section>
    </div>
    <div className={Classes.card}>
-   <Image src={crf} alt='doğaldilişleme' objectFit="contain"/>
+       <span className={Classes.image}>
+           <Image src={crf} alt='doğaldilişleme' objectFit="contain"/>
+           <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+       </span>
    <h5>Github repo of Turkish rule based named entity recognition</h5>
    <section className={Classes.description}>
        <p>Rule based named entity recognition on turkish articles with <strong>pyhton</strong> and Natural language processing with machine learning on Turkish news texts. <a className={Classes.a} href='https://github.com/Berknb/turkish-nlp' target="_blank" rel='noreferrer'> here is repo link <BiLinkAlt size={20}/></a></p>
@@ -275,8 +340,12 @@ that image shows the success rate of the test with machine learning nlp and the 
    </section>
    </div>
    </section>
+                </div>
+                }
            </div>
        )
-    }
+    
+       
+    
     
 }

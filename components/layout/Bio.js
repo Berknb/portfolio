@@ -17,7 +17,9 @@ export default function index() {
                   <a href='https://www.linkedin.com/in/berkd%C3%BCndar/' target="_blank" rel='noreferrer'><FaLinkedin/></a>
                   </div>
           <div className={Classes.second}>
-              <Image src={headerImage} alt='headerImage' width={300} height={300}/>
+              <span className={Classes.headerImage}>
+                  <Image src={headerImage} alt='headerImage' width={300} height={300}/>
+              </span>
               <header>
                   <h1>Berk DÜNDAR</h1>
                   <h3>Junior front-end developer</h3>

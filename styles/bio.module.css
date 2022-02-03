@@ -72,6 +72,9 @@
 }
 
 @media screen and (max-width: 931px) {
+    .headerImage{
+        width: 13rem;
+    }
     .welcome{
         display: flex;
         flex-direction: column;
