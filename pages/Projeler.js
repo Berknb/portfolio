@@ -6,6 +6,7 @@ import searchEngineLogo from '../images/customsearchengine.png';
 import solieLogo from '../images/solieProject.png';
 import learn2flow from '../images/learn2flowImage.png'
 import dukkanimLogo from '../images/dukkanLogo.png'
+import ddLogo from '../images/DD.png'
 import crf from '../images/crf.png';
 import annoyingGame from '../images/annoyinggameImage.png'
 import { useContext } from 'react';
@@ -15,13 +16,32 @@ import {MdAdsClick} from 'react-icons/md'
 
 export default function Projeler() {
     const lang = useContext(LanguageContext)
-    
+
         return (
             <div>
-                {lang === "tr" ? 
+                {lang === "tr" ?
                 <div className='main'>
                     <h2>PROJELER</h2>
    <section className={Classes.projects}>
+   <div className={Classes.card}>
+   <span className={Classes.image}>
+   <Image src={ddLogo} alt='DD Blog page' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+   </span>
+   <h5>DD blog sitesi</h5>
+   <section className={Classes.description}>
+   <p>
+   <strong>nextjs</strong> ile SPA blog sitesi. Çalışmaya<a className={Classes.a} href='https://dd-rouge.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz <BiLinkAlt size={20}/></a>
+   </p>
+   <div className={Classes.projeAciklama}>
+   <p>
+   DD kullanıcıların anonim veya kullanıcı isimleriyle blog yazıları paylaşmalarını sağlayan bir platform olarak tasarlandı. Kullanıcı sayfasında paylaşılan içerikleri düzenlemek ve silmek için araçlar kondu.
+   </p>
+   </div>
+   </section>
+   </div>
    <div className={Classes.card}>
    <span className={Classes.image}>
    <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
@@ -32,7 +52,7 @@ export default function Projeler() {
    <h5>Dükkanım E ticaret sitesi</h5>
    <section className={Classes.description}>
    <p>
-   <strong>nextjs</strong> ile online satış sitesi. Çalışmanın güncel haline <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz <BiLinkAlt size={20}/></a> 
+   <strong>nextjs</strong> ile online satış sitesi. Çalışmanın güncel haline <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz <BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -51,7 +71,7 @@ export default function Projeler() {
    <h5>Solie E ticaret sitesi</h5>
    <section className={Classes.description}>
    <p>
-   <strong>nextjs</strong> ve <strong>firebase</strong> ile online satış sitesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a> 
+   <strong>nextjs</strong> ve <strong>firebase</strong> ile online satış sitesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -70,7 +90,7 @@ export default function Projeler() {
    </span>
    <section className={Classes.description}>
    <p>
-  İş mailleşmeleri için <strong>react</strong> ile hazırlanmış özel arama motoru. Çalışmanın güncel haline <a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a> 
+  İş mailleşmeleri için <strong>react</strong> ile hazırlanmış özel arama motoru. Çalışmanın güncel haline <a className={Classes.a} href='https://tesodev-customsearchengine-berkdundar.vercel.app/' target="_blank" rel='noreferrer'>bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -89,11 +109,11 @@ export default function Projeler() {
    </span>
    <section className={Classes.description}>
    <p>
-   <strong>nextjs</strong> ve <strong>typescript</strong> ile web geliştirme hakkında ücretsiz eğitim kaynaklarını toplayan ve kaynak arayanlara rehber olacak bir web projesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a> 
+   <strong>nextjs</strong> ve <strong>typescript</strong> ile web geliştirme hakkında ücretsiz eğitim kaynaklarını toplayan ve kaynak arayanlara rehber olacak bir web projesi (Henüz responsive değil mobil cihazlardan incelenemeyebilir). Çalışmanın güncel haline <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
-   Web geliştirme ve bir sonraki adımda herhangi bir yazılım alanında, türkçe kaynak bulmakta zorlananlar için özellikle kaliteli türkçe kaynakların toplanmaya çalışıldığı yada ingilizce kaynakların türkçe altyazısı anlaşılır olan, temiz anlaşılır basit bir ingilizceyle anlatılan kaynakların toplandığı bir sayfa. Aynı zamanda içerik üreticilerinin motivasyonunu arttırmayı ve bir topluluk oluşturmayı hedefler. 
+   Web geliştirme ve bir sonraki adımda herhangi bir yazılım alanında, türkçe kaynak bulmakta zorlananlar için özellikle kaliteli türkçe kaynakların toplanmaya çalışıldığı yada ingilizce kaynakların türkçe altyazısı anlaşılır olan, temiz anlaşılır basit bir ingilizceyle anlatılan kaynakların toplandığı bir sayfa. Aynı zamanda içerik üreticilerinin motivasyonunu arttırmayı ve bir topluluk oluşturmayı hedefler.
    </p>
    </div>
    </section>
@@ -137,7 +157,7 @@ export default function Projeler() {
    SportLobi.Tv tüm spor severlerin günlük ve haftalık maç programını görebileceği <br/>
    ve izleme listesine ekleyebilmesini sağlayan bir platform.<br/>
    Alarm özelliği kurularak müsabaka başlamadan önce 1 saate kadar olan periyotlarla<br/>
-   kullanıcıya maçın başlamasına kaç dakika kaldığını bildirir.   
+   kullanıcıya maçın başlamasına kaç dakika kaldığını bildirir.
    </p>
    </div>
    </section>
@@ -152,7 +172,7 @@ export default function Projeler() {
    </span>
    <section className={Classes.description}>
    <p>
-   vakit öldüren, oyuncuyu sinir edecek bir html,css ve javascriptle hazırlanan oyun denemesi.  (masaüstünde mouse imleci ile oynayabilirsiniz). Oyuna <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a> 
+   vakit öldüren, oyuncuyu sinir edecek bir html,css ve javascriptle hazırlanan oyun denemesi.  (masaüstünde mouse imleci ile oynayabilirsiniz). Oyuna <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> bu linkten ulaşabilirsiniz<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -174,7 +194,7 @@ export default function Projeler() {
    <div className={Classes.projeAciklama}>
    <p>
     Arkadaşlarımla birlikte türkçe haber metinleri ve wikipedia makaleleri üzerinde kural tabanlı doğal dil işleme yapabilen bir yazılım geliştirdik<br/>
-    Görsel makine öğrenmesiyle yapılan testin başarı oranını ve başarılı etiket sayısını göstermektedir.<br/> 
+    Görsel makine öğrenmesiyle yapılan testin başarı oranını ve başarılı etiket sayısını göstermektedir.<br/>
     </p>
    </div>
    </section>
@@ -186,6 +206,25 @@ export default function Projeler() {
                     <h2>PROJECTS</h2>
    <section className={Classes.projects}>
    <div className={Classes.card}>
+   <span className={Classes.image}>
+   <Image src={ddLogo} alt='DD Blog page' objectFit="contain"/>
+   <span className={Classes.icon}>
+   <MdAdsClick size={30}/>
+   </span>
+   </span>
+   <h5>DD blog page</h5>
+   <section className={Classes.description}>
+   <p>
+    SPA blog page with <strong>nextjs</strong>. You can reach the current status of project<a className={Classes.a} href='https://dd-rouge.vercel.app/' target="_blank" rel='noreferrer'> from this link <BiLinkAlt size={20}/></a>
+   </p>
+   <div className={Classes.projeAciklama}>
+   <p>
+   DD is a blog page which allows the user share blog posts anonymous or with username. There is two tools in user page to update and delete posts.
+   </p>
+   </div>
+   </section>
+   </div>
+   <div className={Classes.card}>
        <span className={Classes.image}>
            <Image src={dukkanimLogo} alt='CustomSearchEngine' objectFit="contain"/>
     <span className={Classes.icon}>
@@ -195,7 +234,7 @@ export default function Projeler() {
    <h5>Dükkanım eCommerce web site</h5>
    <section className={Classes.description}>
    <p>
-   eCommerce web site with <strong>nextjs</strong> You can reach the current status of project <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a> 
+   eCommerce web site with <strong>nextjs</strong> You can reach the current status of project <a className={Classes.a} href='https://dukkanim.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -214,7 +253,7 @@ export default function Projeler() {
    <h5>Solie jewelery eCommerce web site</h5>
    <section className={Classes.description}>
    <p>
-   eCommerce web site with <strong>nextjs</strong> and <strong>firebase</strong> (Not yet responsive, may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a> 
+   eCommerce web site with <strong>nextjs</strong> and <strong>firebase</strong> (Not yet responsive, may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://solie.vercel.app/market' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -252,11 +291,11 @@ export default function Projeler() {
    <h5>Web developer site with the free sources</h5>
    <section className={Classes.description}>
    <p>
-   A web project that collects free educational resources about web development. Made with <strong>nextjs</strong> and <strong>typescript</strong>(not responsive yet may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a> 
+   A web project that collects free educational resources about web development. Made with <strong>nextjs</strong> and <strong>typescript</strong>(not responsive yet may not be viewed on mobile devices). You can reach the current status of project <a className={Classes.a} href='https://learn2flow.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
-   For people who have difficulty in finding Turkish resources in the field of web development and any software language in the next step, it is a page where quality Turkish resources are tried to be collected, or resources that are explained in a clean and simple English with Turkish subtitles. It also aims to increase the motivation of content creaters and create a community.  
+   For people who have difficulty in finding Turkish resources in the field of web development and any software language in the next step, it is a page where quality Turkish resources are tried to be collected, or resources that are explained in a clean and simple English with Turkish subtitles. It also aims to increase the motivation of content creaters and create a community.
    </p>
    </div>
    </section>
@@ -294,7 +333,7 @@ community. They can find tennis courts information after that.
    <p>When I begin to learn <strong>nextjs</strong> and working with it, I created another app for addition to my first tennis app and also can be used by all kind of sports fans. You can reach the current status of project<a className={Classes.a} href='https://sportlobi-tv.vercel.app/' target="_blank" rel='noreferrer'> SportLobi.TV<BiLinkAlt size={20}/></a></p>
    <div className={Classes.projeAciklama}>
    <p>
-   SportLobi.Tv is which app include the daily and weekly match schedule. all sports lovers can see 
+   SportLobi.Tv is which app include the daily and weekly match schedule. all sports lovers can see
 and can add to the watch list.
 By setting up the alarm which is up to 1 hour before the match starts.
 informs the user how many minutes are left before the match starts.
@@ -312,7 +351,7 @@ informs the user how many minutes are left before the match starts.
    <h5>a Game made with  html,css and javascript</h5>
    <section className={Classes.description}>
    <p>
-   a Game made with  html,css and javascript which is trying to be so annoying  (you can play with the mouse cursor on the desktop). You can reach the game <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a> 
+   a Game made with  html,css and javascript which is trying to be so annoying  (you can play with the mouse cursor on the desktop). You can reach the game <a className={Classes.a} href='https://annoying-game.vercel.app/' target="_blank" rel='noreferrer'> from this link<BiLinkAlt size={20}/></a>
    </p>
    <div className={Classes.projeAciklama}>
    <p>
@@ -334,7 +373,7 @@ informs the user how many minutes are left before the match starts.
    <div className={Classes.projeAciklama}>
    <p>
    we developed a software with my friends that can perform rule-based natural language processing on Turkish news texts and wikipedia articles.
-that image shows the success rate of the test with machine learning nlp and the number of successful tags. 
+that image shows the success rate of the test with machine learning nlp and the number of successful tags.
     </p>
    </div>
    </section>
@@ -344,8 +383,8 @@ that image shows the success rate of the test with machine learning nlp and the 
                 }
            </div>
        )
-    
-       
-    
-    
+
+
+
+
 }
