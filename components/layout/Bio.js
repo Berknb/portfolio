@@ -22,7 +22,7 @@ export default function index() {
               </span>
               <header>
                   <h1>Berk DÜNDAR</h1>
-                  <h3>Junior front-end developer</h3>
+                  <h3>Frontend developer</h3>
                   </header>
               </div>
               <div className={Classes.firstResponsive}>
