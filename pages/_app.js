@@ -7,7 +7,7 @@ export const LanguageContext = react.createContext()
 
 
 function MyApp({ Component, pageProps }) {
-  const [language,setLanguage] = useState("tr"); 
+  const [language,setLanguage] = useState("en"); 
   function languageEN(){
     setLanguage("en")
   }
