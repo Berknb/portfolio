@@ -29,8 +29,8 @@ export default function Index() {
                 <h2>ABOUT ME</h2>
                 <p>
                 &nbsp;&nbsp;&nbsp;I was born in 12 May 1998 at Istanbul/Turkey. After I Completed my primary and high school there, as thinking of my skills and interests I decided to become computer engineer and  move to Edirne to study Trakya University computer engineering departmant.<br/><br/>
-                &nbsp;&nbsp;&nbsp;after I developed different kind of projects on my school period I decided to keep move on front-end because I feel creative, comfortable and productive when I am working on front-end. Still working for improve myself to top level day by day<br/>
-                &nbsp;&nbsp;&nbsp;Currently I am working with React.js,Next.js,React native and making projects on them,my goal is maximize my level. I want to improve myself with a big team and big projects.
+                &nbsp;&nbsp;&nbsp;after I developed different kind of projects on my school period I decided to keep move on front-end because I feel creative, comfortable and productive when I am working on front-end. Still working for improve myself to top level day by day<br/><br/>
+                &nbsp;&nbsp;&nbsp;Currently working as a front-end developer at personaclick and developing different kind of projects for different types of eCommerce websites and love the way watching how they turning to revenues.
                 </p>
             </div>       
                 }
