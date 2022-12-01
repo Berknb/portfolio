@@ -22,7 +22,7 @@ export default function Index() {
                     düşünerek bilgisayar mühendisliğini tercih etmeye karar verdim ve 
                     Trakya Üniversitesi bilgisayar mühendisliği bölümünü kazanarak Edirne&apos;ye yerleştim.<br/><br/>
                     &nbsp;&nbsp;&nbsp;Üniversite hayatım boyunca geliştirdiğim çeşitli projeler ve takip ettiğim,yürüttüğüm tüm çalışmaların ardından front-end alanında çalışmanın benim için daha keyifli daha verimli ve bu alanda daha yaratıcı olduğumu farkettim ve kendimi bu alanda günden güne geliştirmeye devam ediyorum.<br/><br/>
-                    &nbsp;&nbsp;&nbsp;Güncel olarak front-end developer olarak personaclick bünyesinde çalışmaktayım ve önde gelen e ticaret markalarına çeşitli çalışmalarla, kazançlarını ve kullanıcı deneyimlerini olumlu yönde arttırmaya yönelik geliştirmeler yapmaktayım.
+                    &nbsp;&nbsp;&nbsp;Güncel olarak front-end developer olarak <a href="https://www.personaclick.com/">personaclick</a> bünyesinde çalışmaktayım ve önde gelen e ticaret markalarına çeşitli çalışmalarla, kazançlarını ve kullanıcı deneyimlerini olumlu yönde arttırmaya yönelik geliştirmeler yapmaktayım.
                 </p>
                 </div>:
                 <div className='main'>
@@ -30,7 +30,7 @@ export default function Index() {
                 <p>
                 &nbsp;&nbsp;&nbsp;I was born in 12 May 1998 at Istanbul/Turkey. After I Completed my primary and high school there, as thinking of my skills and interests I decided to become computer engineer and  move to Edirne to study Trakya University computer engineering departmant.<br/><br/>
                 &nbsp;&nbsp;&nbsp;after I developed different kind of projects on my school period I decided to keep move on front-end because I feel creative, comfortable and productive when I am working on front-end. Still working for improve myself to top level day by day<br/><br/>
-                &nbsp;&nbsp;&nbsp;Currently working as a front-end developer at personaclick and developing different kind of projects for different types of eCommerce websites and love the way watching how they turning to revenues.
+                &nbsp;&nbsp;&nbsp;Currently working as a front-end developer at <a href="https://www.personaclick.com/">personaclick</a> and developing different kind of projects for different types of eCommerce websites and love the way watching how they turning to revenues.
                 </p>
             </div>       
                 }
