@@ -21,8 +21,8 @@ export default function Index() {
                     İlkokul ve lise hayatımı burada tamamladıktan sonra ilgi alanlarımı ve yeteneklerimi 
                     düşünerek bilgisayar mühendisliğini tercih etmeye karar verdim ve 
                     Trakya Üniversitesi bilgisayar mühendisliği bölümünü kazanarak Edirne&apos;ye yerleştim.<br/><br/>
-                    &nbsp;&nbsp;&nbsp;Üniversite hayatım boyunca geliştirdiğim çeşitli projeler ve takip ettiğim,yürüttüğüm tüm çalışmaların ardından front-end alanında çalışmanın benim için daha keyifli daha verimli ve bu alanda daha yaratıcı olduğumu farkettim ve kendimi bu alanda günden güne geliştirmeye devam ediyorum.<br/>
-                    &nbsp;&nbsp;&nbsp;Güncel olarak <strong>React.js,Next.js,React native</strong> ile projeler geliştiriyorum ve seviyemi en üst seviyeye çekmeyi hedefliyorum. Kendimi büyük bir takımla ve büyük projelerle geliştirmek istiyorum.
+                    &nbsp;&nbsp;&nbsp;Üniversite hayatım boyunca geliştirdiğim çeşitli projeler ve takip ettiğim,yürüttüğüm tüm çalışmaların ardından front-end alanında çalışmanın benim için daha keyifli daha verimli ve bu alanda daha yaratıcı olduğumu farkettim ve kendimi bu alanda günden güne geliştirmeye devam ediyorum.<br/><br/>
+                    &nbsp;&nbsp;&nbsp;Güncel olarak front-end developer olarak personaclick bünyesinde çalışmaktayım ve önde gelen e ticaret markalarına çeşitli çalışmalarla, kazançlarını ve kullanıcı deneyimlerini olumlu yönde arttırmaya yönelik geliştirmeler yapmaktayım.
                 </p>
                 </div>:
                 <div className='main'>
